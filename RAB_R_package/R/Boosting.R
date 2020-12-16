@@ -1,6 +1,8 @@
 #' Real Adaboost
 #' 
 #' Real Adaboost Classification based on Friedman, Hastie and Tibshirani (2000)
+#' 
+#' @author Ramon de Punder (University of Amsterdam, Tinbergen Institute)
 #' @param mDataTrain matrix containig training data, on which weak learners are fitted.
 #' @param mDataTest matrix containing test data, used for prediction and evaluation.
 #' @param iM integer, total number of included weak learners, default is 10.
